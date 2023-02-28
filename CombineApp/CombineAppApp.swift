@@ -11,7 +11,7 @@ import SwiftUI
 struct CombineAppApp: App {
     var body: some Scene {
         WindowGroup {
-           Empty_Publisher()
+           Fail_Publisher()
         }
     }
 }
