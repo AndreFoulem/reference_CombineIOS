@@ -11,14 +11,16 @@
 		90D733D429AD74BA00F9C0FD /* CombineAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D733D329AD74BA00F9C0FD /* CombineAppApp.swift */; };
 		90D733D829AD74BB00F9C0FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D733D729AD74BB00F9C0FD /* Assets.xcassets */; };
 		90D733DB29AD74BB00F9C0FD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90D733DA29AD74BB00F9C0FD /* Preview Assets.xcassets */; };
+		90DCF02529ADB7FE006235E4 /* CurrentValueSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DCF02429ADB7FE006235E4 /* CurrentValueSubject.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9007401929ADAEF4000155B8 /* PublishedIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishedIntroView.swift; sourceTree = SOURCE_ROOT; };
+		9007401929ADAEF4000155B8 /* PublishedIntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PublishedIntroView.swift; path = "Publishers Intro/PublishedIntroView.swift"; sourceTree = SOURCE_ROOT; };
 		90D733D029AD74BA00F9C0FD /* CombineApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CombineApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90D733D329AD74BA00F9C0FD /* CombineAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineAppApp.swift; sourceTree = "<group>"; };
 		90D733D729AD74BB00F9C0FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90D733DA29AD74BB00F9C0FD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		90DCF02429ADB7FE006235E4 /* CurrentValueSubject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentValueSubject.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,44 +34,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9007401529ADAE3E000155B8 /* Publishers Chapter */ = {
-			isa = PBXGroup;
-			children = (
-				9007401829ADAE75000155B8 /* Views */,
-				9007401729ADAE74000155B8 /* VM */,
-				9007401629ADAE73000155B8 /* Models */,
-			);
-			path = "Publishers Chapter";
-			sourceTree = "<group>";
-		};
-		9007401629ADAE73000155B8 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		9007401729ADAE74000155B8 /* VM */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = VM;
-			path = "New Group/VM";
-			sourceTree = "<group>";
-		};
-		9007401829ADAE75000155B8 /* Views */ = {
+		9007401529ADAE3E000155B8 /* Publishers_Intro */ = {
 			isa = PBXGroup;
 			children = (
 				9007401929ADAEF4000155B8 /* PublishedIntroView.swift */,
 			);
-			name = Views;
-			path = "New Group/New Group/Views";
+			path = Publishers_Intro;
 			sourceTree = "<group>";
 		};
 		90D733C729AD74BA00F9C0FD = {
 			isa = PBXGroup;
 			children = (
-				9007401529ADAE3E000155B8 /* Publishers Chapter */,
+				90DCF02329ADB7DA006235E4 /* Current_Value_Subject */,
+				9007401529ADAE3E000155B8 /* Publishers_Intro */,
 				90D733D229AD74BA00F9C0FD /* CombineApp */,
 				90D733D129AD74BA00F9C0FD /* Products */,
 			);
@@ -99,6 +76,14 @@
 				90D733DA29AD74BB00F9C0FD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		90DCF02329ADB7DA006235E4 /* Current_Value_Subject */ = {
+			isa = PBXGroup;
+			children = (
+				90DCF02429ADB7FE006235E4 /* CurrentValueSubject.swift */,
+			);
+			path = Current_Value_Subject;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9007401A29ADAEF4000155B8 /* PublishedIntroView.swift in Sources */,
+				90DCF02529ADB7FE006235E4 /* CurrentValueSubject.swift in Sources */,
 				90D733D429AD74BA00F9C0FD /* CombineAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
