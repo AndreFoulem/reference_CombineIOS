@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9067CF6B29AFE6B5004702D3 /* Just_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9067CF6A29AFE6B5004702D3 /* Just_Publisher.swift */; };
 		909FCE8729AE7DB70088D53A /* Empty_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909FCE8629AE7DB70088D53A /* Empty_Publisher.swift */; };
 		909FCE8A29AE87290088D53A /* Fail_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909FCE8929AE87290088D53A /* Fail_Publisher.swift */; };
 		909FCE8C29AE91800088D53A /* Future_Promise_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909FCE8B29AE91800088D53A /* Future_Promise_Publisher.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9067CF6A29AFE6B5004702D3 /* Just_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_Publisher.swift; sourceTree = "<group>"; };
 		909FCE8629AE7DB70088D53A /* Empty_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty_Publisher.swift; sourceTree = "<group>"; };
 		909FCE8929AE87290088D53A /* Fail_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fail_Publisher.swift; sourceTree = "<group>"; };
 		909FCE8B29AE91800088D53A /* Future_Promise_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_Promise_Publisher.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				909FCE8629AE7DB70088D53A /* Empty_Publisher.swift */,
 				909FCE8929AE87290088D53A /* Fail_Publisher.swift */,
 				909FCE8B29AE91800088D53A /* Future_Promise_Publisher.swift */,
+				9067CF6A29AFE6B5004702D3 /* Just_Publisher.swift */,
 			);
 			path = Current_Value_Subject;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9067CF6B29AFE6B5004702D3 /* Just_Publisher.swift in Sources */,
 				909FCE8A29AE87290088D53A /* Fail_Publisher.swift in Sources */,
 				909FCE8729AE7DB70088D53A /* Empty_Publisher.swift in Sources */,
 				90DCF02529ADB7FE006235E4 /* Current_Value_Subject.swift in Sources */,
