@@ -12,6 +12,7 @@
 		909FCE8729AE7DB70088D53A /* Empty_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909FCE8629AE7DB70088D53A /* Empty_Publisher.swift */; };
 		909FCE8A29AE87290088D53A /* Fail_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909FCE8929AE87290088D53A /* Fail_Publisher.swift */; };
 		909FCE8C29AE91800088D53A /* Future_Promise_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909FCE8B29AE91800088D53A /* Future_Promise_Publisher.swift */; };
+		90AEA6A729B13C680091DBD3 /* Datatask_Pub.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90AEA6A629B13C680091DBD3 /* Datatask_Pub.swift */; };
 		90C8471129B11ECD002AF871 /* Sequence_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8471029B11ECD002AF871 /* Sequence_Publisher.swift */; };
 		90C8471329B1295D002AF871 /* Timer_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8471229B1295D002AF871 /* Timer_Publisher.swift */; };
 		90C8471529B13113002AF871 /* Timer_Connect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C8471429B13113002AF871 /* Timer_Connect.swift */; };
@@ -27,6 +28,7 @@
 		909FCE8629AE7DB70088D53A /* Empty_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty_Publisher.swift; sourceTree = "<group>"; };
 		909FCE8929AE87290088D53A /* Fail_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fail_Publisher.swift; sourceTree = "<group>"; };
 		909FCE8B29AE91800088D53A /* Future_Promise_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Future_Promise_Publisher.swift; sourceTree = "<group>"; };
+		90AEA6A629B13C680091DBD3 /* Datatask_Pub.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datatask_Pub.swift; sourceTree = "<group>"; };
 		90C8471029B11ECD002AF871 /* Sequence_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence_Publisher.swift; sourceTree = "<group>"; };
 		90C8471229B1295D002AF871 /* Timer_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Publisher.swift; sourceTree = "<group>"; };
 		90C8471429B13113002AF871 /* Timer_Connect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer_Connect.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				90C8471029B11ECD002AF871 /* Sequence_Publisher.swift */,
 				90C8471229B1295D002AF871 /* Timer_Publisher.swift */,
 				90C8471429B13113002AF871 /* Timer_Connect.swift */,
+				90AEA6A629B13C680091DBD3 /* Datatask_Pub.swift */,
 			);
 			path = Current_Value_Subject;
 			sourceTree = "<group>";
@@ -181,6 +184,7 @@
 				90C8471129B11ECD002AF871 /* Sequence_Publisher.swift in Sources */,
 				90C8471529B13113002AF871 /* Timer_Connect.swift in Sources */,
 				909FCE8A29AE87290088D53A /* Fail_Publisher.swift in Sources */,
+				90AEA6A729B13C680091DBD3 /* Datatask_Pub.swift in Sources */,
 				9067CF6D29AFEC35004702D3 /* PassThroughSubject_Publisher.swift in Sources */,
 				909FCE8729AE7DB70088D53A /* Empty_Publisher.swift in Sources */,
 				90DCF02529ADB7FE006235E4 /* Current_Value_Subject.swift in Sources */,
