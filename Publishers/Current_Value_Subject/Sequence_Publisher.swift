@@ -21,18 +21,30 @@ class SequencePubModel: ObservableObject {
   func fetch() {
     dataIn.publisher
       .sink(receiveCompletion: { (completion) in
-         print(completion)
+        print("receiveCompletion", completion)
       }, receiveValue: { [unowned self] datum in
         self.dataToView.append(datum)
         print(datum)
       })
       .store(in: &cancellables)
+  }
+  
 }
 
 struct Sequence_Publisher: View {
+  @StateObject private var vm = SequencePubModel()
+  
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+      VStack {
+        List(vm.dataToView, id: \.self) { datum in
+          Text(datum)
+        }
+      }//vs
+      .onAppear {
+        vm.fetch()
+      }
+      
+    }//body
 }
 
 
