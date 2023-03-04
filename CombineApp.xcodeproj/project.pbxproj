@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		90242B1F29B2ECBC00DE174E /* AllStatisfy_Ops.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90242B1E29B2ECBC00DE174E /* AllStatisfy_Ops.swift */; };
 		9067CF6B29AFE6B5004702D3 /* Just_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9067CF6A29AFE6B5004702D3 /* Just_Publisher.swift */; };
 		9067CF6D29AFEC35004702D3 /* PassThroughSubject_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9067CF6C29AFEC35004702D3 /* PassThroughSubject_Publisher.swift */; };
 		909FCE8729AE7DB70088D53A /* Empty_Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 909FCE8629AE7DB70088D53A /* Empty_Publisher.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		90242B1E29B2ECBC00DE174E /* AllStatisfy_Ops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStatisfy_Ops.swift; sourceTree = "<group>"; };
 		9067CF6A29AFE6B5004702D3 /* Just_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Just_Publisher.swift; sourceTree = "<group>"; };
 		9067CF6C29AFEC35004702D3 /* PassThroughSubject_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassThroughSubject_Publisher.swift; sourceTree = "<group>"; };
 		909FCE8629AE7DB70088D53A /* Empty_Publisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empty_Publisher.swift; sourceTree = "<group>"; };
@@ -50,6 +52,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		90242B1D29B2EC9900DE174E /* Operators */ = {
+			isa = PBXGroup;
+			children = (
+				90242B1E29B2ECBC00DE174E /* AllStatisfy_Ops.swift */,
+			);
+			path = Operators;
+			sourceTree = "<group>";
+		};
 		909FCE8529AE78680088D53A /* Publishers */ = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		90D733C729AD74BA00F9C0FD = {
 			isa = PBXGroup;
 			children = (
+				90242B1D29B2EC9900DE174E /* Operators */,
 				909FCE8529AE78680088D53A /* Publishers */,
 				90D733D229AD74BA00F9C0FD /* CombineApp */,
 				90D733D129AD74BA00F9C0FD /* Products */,
@@ -189,6 +200,7 @@
 				909FCE8729AE7DB70088D53A /* Empty_Publisher.swift in Sources */,
 				90DCF02529ADB7FE006235E4 /* Current_Value_Subject.swift in Sources */,
 				90D733D429AD74BA00F9C0FD /* CombineAppApp.swift in Sources */,
+				90242B1F29B2ECBC00DE174E /* AllStatisfy_Ops.swift in Sources */,
 				909FCE8C29AE91800088D53A /* Future_Promise_Publisher.swift in Sources */,
 				90C8471329B1295D002AF871 /* Timer_Publisher.swift in Sources */,
 			);
