@@ -27,8 +27,30 @@ class MeasureInterval_Model: ObservableObject {
 }
 
 struct MeasureInterval: View {
+  @StateObject var vm = MeasureInterval_Model()
+  @State var ready = false
+  @State var showSpeed = false
+  
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+      VStack {
+        Button("Start") {
+          DispatchQueue.main.asyncAfter(deadline: .now() + Double.random(in: 0.5...2.0)) {
+            ready = true
+            vm.timeEvent.send()
+          }
+        }
+        
+        Button(action: {
+          vm.timeEvent.send()
+          showSpeed = true
+        },
+               label: {
+          RoundedRectangle(cornerRadius: 25.0).fill(ready ? Color.green : Color.secondary)
+        })
+        
+        Text("Reaction spped: \(vm.speed)")
+          .opacity(showSpeed ? 1 : 0)
+      }
     }
 }
 
