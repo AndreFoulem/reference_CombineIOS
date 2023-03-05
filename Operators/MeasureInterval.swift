@@ -6,6 +6,14 @@
 //
 
 import SwiftUI
+import Combine
+
+class MeasureInterval_Model: ObservableObject {
+  @published var speed: TimeInterval = 0.0
+  var item = PassThroughSubject<Void, Never>()
+  
+  private var cancellable: AnyCancellable?
+}
 
 struct MeasureInterval: View {
     var body: some View {
